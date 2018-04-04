@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXApplicationTarget section */
+		20286C34FDCF999611CA2CEA /* PIGE */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = 84EA55A820732EC200DC02B2 /* Build configuration list for PBXApplicationTarget "PIGE" */;
+			buildPhases = (
+				20286C35FDCF999611CA2CEA /* Headers */,
+				20286C36FDCF999611CA2CEA /* Resources */,
+				20286C38FDCF999611CA2CEA /* Sources */,
+				20286C3BFDCF999611CA2CEA /* Frameworks */,
+				04313892FE3035C9C02AAC07 /* Rez */,
+			);
+			dependencies = (
+			);
+			name = PIGE;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PIGE;
+			productReference = 0249A665FF388DC511CA2CEA /* PIGE.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>PIGE</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		0867D6ACFE840B52C02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		20286C3AFDCF999611CA2CEA /* main.r in Rez */ = {isa = PBXBuildFile; fileRef = 20286C2DFDCF999611CA2CEA /* main.r */; settings = {ATTRIBUTES = (); }; };
+		20286C3CFDCF999611CA2CEA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		8425DB2304BE70EE002A2A80 /* Vector3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 8425DB2204BE70EE002A2A80 /* Vector3D.h */; };
+		84352BFC04402C1F005A79E1 /* openal_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 84352BFB04402C1F005A79E1 /* openal_mac.h */; };
+		84352C0104402E67005A79E1 /* Footsteps.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84352C0004402E67005A79E1 /* Footsteps.wav */; };
+		8445CAA6043D9D01005A79E1 /* wood-1.tga in Resources */ = {isa = PBXBuildFile; fileRef = 8445CAA4043D9D01005A79E1 /* wood-1.tga */; };
+		8445CAA9043DA6C2005A79E1 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = 8445CAA8043DA6C2005A79E1 /* ceiling.tga */; };
+		84508C4B041751AB005A79E1 /* do_alpha32.tga in Resources */ = {isa = PBXBuildFile; fileRef = 84508C4A041751AB005A79E1 /* do_alpha32.tga */; };
+		8475C9C2041364B5005A79E1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8475C9C1041364B5005A79E1 /* GLUT.framework */; };
+		849DECFB0418E13B005A79E1 /* get_random.h in Headers */ = {isa = PBXBuildFile; fileRef = 849DECFA0418E13B005A79E1 /* get_random.h */; };
+		849EBDB30414BE00005A79E1 /* LoadGLTextures.h in Headers */ = {isa = PBXBuildFile; fileRef = 849EBDB20414BE00005A79E1 /* LoadGLTextures.h */; };
+		84EA2593044290C5005A79E1 /* a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84EA2592044290C5005A79E1 /* a.wav */; };
+		84EA55B520732F4700DC02B2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EA55B420732F4700DC02B2 /* OpenAL.framework */; };
+		84EA55BD20732FDE00DC02B2 /* libstdc++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EA55BC20732FDE00DC02B2 /* libstdc++.a */; };
+		F51FB1EE01F7F8D801000002 /* hardwoodfloor32.tga in Resources */ = {isa = PBXBuildFile; fileRef = F51FB1ED01F7F8D801000002 /* hardwoodfloor32.tga */; };
+		F522E925018FBBB201E647E2 /* eye_alpha.tga in Resources */ = {isa = PBXBuildFile; fileRef = F522E924018FBBB201E647E2 /* eye_alpha.tga */; };
+		F522E92D018FBC7601E647E2 /* LoadTGA.h in Headers */ = {isa = PBXBuildFile; fileRef = F522E92C018FBC7601E647E2 /* LoadTGA.h */; };
+		F535E874017F456101F45A30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F535E873017F456101F45A30 /* main.cpp */; };
+		F535E87C017F458E01F45A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F535E879017F458D01F45A30 /* Foundation.framework */; };
+		F535E87E017F458E01F45A30 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F535E87B017F458D01F45A30 /* OpenGL.framework */; };
+		F5DA6E6501EFF68E01C86B7C /* talk_alpha32.tga in Resources */ = {isa = PBXBuildFile; fileRef = F5DA6E6401EFF68D01C86B7C /* talk_alpha32.tga */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0249A665FF388DC511CA2CEA /* PIGE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PIGE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0640BAA4FFF0323A11CA0E50 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		0640BAA5FFF0323A11CA0E50 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20286C2DFDCF999611CA2CEA /* main.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = main.r; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8425DB2204BE70EE002A2A80 /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Vector3D.h; sourceTree = "<group>"; };
+		84352BFB04402C1F005A79E1 /* openal_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openal_mac.h; sourceTree = "<group>"; };
+		84352C0004402E67005A79E1 /* Footsteps.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Footsteps.wav; path = build/Footsteps.wav; sourceTree = "<group>"; };
+		8445CAA4043D9D01005A79E1 /* wood-1.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wood-1.tga"; sourceTree = "<group>"; };
+		8445CAA8043DA6C2005A79E1 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		84508C4A041751AB005A79E1 /* do_alpha32.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = do_alpha32.tga; sourceTree = "<group>"; };
+		8475C9C1041364B5005A79E1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		849DECFA0418E13B005A79E1 /* get_random.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = get_random.h; sourceTree = "<group>"; };
+		849EBDB20414BE00005A79E1 /* LoadGLTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGLTextures.h; sourceTree = "<group>"; };
+		84EA2592044290C5005A79E1 /* a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = a.wav; path = build/a.wav; sourceTree = "<group>"; };
+		84EA55B420732F4700DC02B2 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
+		84EA55BC20732FDE00DC02B2 /* libstdc++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libstdc++.a"; path = "/usr/lib/gcc/darwin/3.3/libstdc++.a"; sourceTree = "<absolute>"; };
+		F51FB1ED01F7F8D801000002 /* hardwoodfloor32.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = hardwoodfloor32.tga; sourceTree = "<group>"; };
+		F522E924018FBBB201E647E2 /* eye_alpha.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eye_alpha.tga; sourceTree = "<group>"; };
+		F522E92C018FBC7601E647E2 /* LoadTGA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LoadTGA.h; sourceTree = "<group>"; };
+		F535E873017F456101F45A30 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F535E879017F458D01F45A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F535E87B017F458D01F45A30 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F5DA6E6401EFF68D01C86B7C /* talk_alpha32.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = talk_alpha32.tga; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20286C3BFDCF999611CA2CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20286C3CFDCF999611CA2CEA /* Carbon.framework in Frameworks */,
+				F535E87C017F458E01F45A30 /* Foundation.framework in Frameworks */,
+				F535E87E017F458E01F45A30 /* OpenGL.framework in Frameworks */,
+				8475C9C2041364B5005A79E1 /* GLUT.framework in Frameworks */,
+				84EA55B520732F4700DC02B2 /* OpenAL.framework in Frameworks */,
+				84EA55BD20732FDE00DC02B2 /* libstdc++.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8C9FE9D4F0611CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0249A665FF388DC511CA2CEA /* PIGE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* PIGE */ = {
+			isa = PBXGroup;
+			children = (
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8C9FE9D4F0611CA2CBB /* Products */,
+			);
+			name = PIGE;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F5DA6E5101EFE23E01C86B7C /* images */,
+				F535E873017F456101F45A30 /* main.cpp */,
+				849DECFA0418E13B005A79E1 /* get_random.h */,
+				849EBDB20414BE00005A79E1 /* LoadGLTextures.h */,
+				F522E92C018FBC7601E647E2 /* LoadTGA.h */,
+				84352BFB04402C1F005A79E1 /* openal_mac.h */,
+				8425DB2204BE70EE002A2A80 /* Vector3D.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20286C2DFDCF999611CA2CEA /* main.r */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+				84352C0004402E67005A79E1 /* Footsteps.wav */,
+				84EA2592044290C5005A79E1 /* a.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				84EA55BC20732FDE00DC02B2 /* libstdc++.a */,
+				84EA55B420732F4700DC02B2 /* OpenAL.framework */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				0640BAA4FFF0323A11CA0E50 /* ApplicationServices.framework */,
+				0640BAA5FFF0323A11CA0E50 /* CoreServices.framework */,
+				F535E879017F458D01F45A30 /* Foundation.framework */,
+				F535E87B017F458D01F45A30 /* OpenGL.framework */,
+				8475C9C1041364B5005A79E1 /* GLUT.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		F5DA6E5101EFE23E01C86B7C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8445CAA8043DA6C2005A79E1 /* ceiling.tga */,
+				84508C4A041751AB005A79E1 /* do_alpha32.tga */,
+				F522E924018FBBB201E647E2 /* eye_alpha.tga */,
+				F51FB1ED01F7F8D801000002 /* hardwoodfloor32.tga */,
+				F5DA6E6401EFF68D01C86B7C /* talk_alpha32.tga */,
+				8445CAA4043D9D01005A79E1 /* wood-1.tga */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20286C35FDCF999611CA2CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F522E92D018FBC7601E647E2 /* LoadTGA.h in Headers */,
+				849EBDB30414BE00005A79E1 /* LoadGLTextures.h in Headers */,
+				849DECFB0418E13B005A79E1 /* get_random.h in Headers */,
+				84352BFC04402C1F005A79E1 /* openal_mac.h in Headers */,
+				8425DB2304BE70EE002A2A80 /* Vector3D.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84EA55AC20732EC200DC02B2 /* Build configuration list for PBXProject "PIGE" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* PIGE */;
+			projectDirPath = "";
+			targets = (
+				20286C34FDCF999611CA2CEA /* PIGE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20286C36FDCF999611CA2CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0867D6ACFE840B52C02AAC07 /* InfoPlist.strings in Resources */,
+				F522E925018FBBB201E647E2 /* eye_alpha.tga in Resources */,
+				F5DA6E6501EFF68E01C86B7C /* talk_alpha32.tga in Resources */,
+				F51FB1EE01F7F8D801000002 /* hardwoodfloor32.tga in Resources */,
+				84508C4B041751AB005A79E1 /* do_alpha32.tga in Resources */,
+				8445CAA6043D9D01005A79E1 /* wood-1.tga in Resources */,
+				8445CAA9043DA6C2005A79E1 /* ceiling.tga in Resources */,
+				84352C0104402E67005A79E1 /* Footsteps.wav in Resources */,
+				84EA2593044290C5005A79E1 /* a.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		04313892FE3035C9C02AAC07 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20286C3AFDCF999611CA2CEA /* main.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20286C38FDCF999611CA2CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F535E874017F456101F45A30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EA55A920732EC200DC02B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/gcc/darwin/3.3,
+				);
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PIGE;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		84EA55AA20732EC200DC02B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/gcc/darwin/3.3,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PIGE;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84EA55AB20732EC200DC02B2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/gcc/darwin/3.3,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PIGE;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		84EA55AD20732EC200DC02B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		84EA55AE20732EC200DC02B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		84EA55AF20732EC200DC02B2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EA55A820732EC200DC02B2 /* Build configuration list for PBXApplicationTarget "PIGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EA55A920732EC200DC02B2 /* Development */,
+				84EA55AA20732EC200DC02B2 /* Deployment */,
+				84EA55AB20732EC200DC02B2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84EA55AC20732EC200DC02B2 /* Build configuration list for PBXProject "PIGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EA55AD20732EC200DC02B2 /* Development */,
+				84EA55AE20732EC200DC02B2 /* Deployment */,
+				84EA55AF20732EC200DC02B2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}
